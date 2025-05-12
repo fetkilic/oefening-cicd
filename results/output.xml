@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-12T14:47:33.975590" rpa="false" schemaversion="5">
+<suite id="s1" name="Hello" source="C:\Ontwikkeling\robot-scripts\oefening-cicd\tests\hello.robot">
+<test id="s1-t1" name="Basis Test" line="2">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-12T14:47:33.997527" level="INFO">Dit is mijn eerste test!</msg>
+<arg>Dit is mijn eerste test!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-12T14:47:33.997402" elapsed="0.000171"/>
+</kw>
+<status status="PASS" start="2025-05-12T14:47:33.996910" elapsed="0.000820"/>
+</test>
+<status status="PASS" start="2025-05-12T14:47:33.976724" elapsed="0.021590"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Hello" id="s1" pass="1" fail="0" skip="0">Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
